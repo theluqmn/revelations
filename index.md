@@ -17,6 +17,6 @@ Designed, developed, and written by [Luqman](https://theluqmn.github.io/) - a hi
 
 Handpicked articles that I think is worth checking out.
 
-### [YouTube](https://youtube.com/@theluqmn)
+### [Risk Management](/risk-management/)
 
-My YouTube channel, where weekly 5 minute videos related to the newsletter are uploaded.
+How risk management works, and how it can be applied in various aspects of life.
