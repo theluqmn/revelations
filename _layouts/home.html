@@ -22,9 +22,24 @@
     </head>
 
     <body class="bg-black">
-        <main>
-            <div class="p-4 text-white">
-                {{ content }}
+        <main class="">
+            <header
+            class="p-2 bg-white items-center flex flex-col fixed z-10 w-full hover:bg-[rgb(225,225,225)] duration-500">
+                <div class="flex flex-row items-center gap-2">
+                    <h1 class="text-2xl text-black">
+                    bille
+                    </h1>
+                </div>
+            </header>
+
+            <div class="p-4">
+                <h1 class="text-2xl text-white">
+                    {{ page.title }}
+                </h1>
+
+                <div>
+                    {{ content }}
+                </div>
             </div>
         </main>
     </body>
