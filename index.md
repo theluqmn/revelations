@@ -13,6 +13,6 @@ Designed, developed, and written by [Luqman](https://theluqmn.github.io/) - a hi
 
 ## Featured
 
-### Home
+### [Home](https://theluqmn.github.io/revelations/)
 
 Home sweet home
