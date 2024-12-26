@@ -13,4 +13,6 @@ Designed, developed, and written by [Luqman](https://theluqmn.github.io/) - a hi
 
 ## Featured
 
-test
+### Home
+
+Home sweet home
