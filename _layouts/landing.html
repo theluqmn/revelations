@@ -27,15 +27,10 @@
         {% include header.html %}
 
         <main class="pt-32 p-2 md:pt-32 md:p-4 md:w-7/12 mx-auto items-center space-y-3 text-sm md:text-base">
-            <h1 class="pb-4 font-mono text-white text-4xl md:text-6xl font-bold">{{ page.title }}</h1>
-            <h2 class="pb-8 font-mono text-white text-2xl md:text-4xl font-bold">{{ page.description }}</h2>"
+            <h1 class="pb-16 font-mono text-white text-4xl md:text-6xl font-bold">{{ page.title }}</h1>
 
             <!-- An abomination of nested divs -->
-            <div class="p-2 flex flex-col gap-4 rounded-md bg-[rgb(20,20,20)]">
-                <p class="text-white text-sm md:text-base">
-                    Published on {{ page.date }}, by <b>{{ page.author }}</b>
-                </p>
-
+            <div class="p-2 rounded-md bg-[rgb(20,20,20)]">
                 <div class="p-2 rounded-md bg-black">
                     <div class="text-[rgb(225,225,225)] font-mono space-y-4 [&_h2]:my-12 [&_h2]:text-4xl [&_h2]:font-semibold [&_h3]:text-2xl [&_h3]:my-8 [&_h3]:font-semibold [&_a]:text-[rgb(52,152,219)]">
                         {{ content }}
