@@ -1,5 +1,4 @@
 ---
-permalink: /
 layout: landing
 title: The Revelations
 description: A weekly newsletter that aims to provide a comprehensive and concise overview of various topics in the world of entrepreneurship, technology, finance, and beyond.
@@ -13,8 +12,4 @@ A weekly newsletter that aims to provide a comprehensive and concise overview of
 
 ## Featured
 
-Handpicked articles that I think is worth checking out.
-
-### [Risk Management](/risk-management/)
-
-How risk management works, and how it can be applied in various aspects of life.
+Handpicked articles that I consider my most valuable.
