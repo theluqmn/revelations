@@ -34,29 +34,29 @@
     <body class="bg-black">
         <div class="flex flex-col md:flex-row gap-16">
             <!-- The sidebar -->
-            <div class="w-4/12 p-8 flex flex-col h-screen outline outline-5 outline-[rgb(10,10,10)]
-            bg-gradient-to-b from-[rgb(10,10,10)] to-[rgb(20,20,20)]">
+            <div class="w-full items-center md:items-start md:w-4/12 p-8 flex flex-col md:h-screen bg-gradient-to-b from-[rgb(10,10,10)] to-[rgb(20,20,20)]">
                 <div class="flex flex-row gap-6 items-center">
                     <img src="{{ site.baseurl }}/assets/icon.png" alt="The Revelations icon" class="w-12 h-12" />
-                    <h1 class="text-4xl text-[rgb(4,140,224)] font-semibold">
+                    <h1 class="text-4xl text-[rgb(4,140,224)] font-semibold"> <!-- Hide on mobile -->
                         The Revelations
                     </h1>
                 </div>
-
-                <div class="py-24 flex flex-col gap-4">
-                    <a class="text-white text-2xl">home</a>
-                    <a class="text-white text-2xl">about</a>
-                    <a class="text-white text-2xl">github</a>
+            
+                <div class="py-24 flex flex-col gap-4 hidden md:block">
+                    <a class="text-white text-2xl hidden md:block">home</a> <!-- Hide on mobile -->
+                    <a class="text-white text-2xl hidden md:block">about</a> <!-- Hide on mobile -->
+                    <a class="text-white text-2xl hidden md:block">github</a> <!-- Hide on mobile -->
                 </div>
-
-                <p class="text-base text-[rgb(200,200,200)]">
+            
+                <p class="text-base text-[rgb(200,200,200)] hidden md:block"> <!-- Hide on mobile -->
                     Designed, developed, and written by Luqman
                 </p>
-
-                <div class="py-2">
+            
+                <div class="py-2 hidden md:block">
                     <hr class="border-t-4 border-[rgb(50,50,50)]" />
                 </div>
             </div>
+            
 
             <div class="p-4 w-full flex flex-col gap-2">
                 <h1 class="pt-24 text-5xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[rgb(115,180,254)] md:via-[rgb(58,145,243)] to-[rgb(58,145,243)]">
@@ -70,7 +70,7 @@
                     Published on {{ page.date }}
                 </p>
 
-                <p class="text-lg">
+                <p class="pt-24 text-lg text-white">
                     {{ content }}
                 </p>
             </div>
