@@ -59,11 +59,20 @@
             </div>
 
             <div class="p-4 w-full flex flex-col gap-2">
-                <div>
-                    <h1 class="pt-32 text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[rgb(115,180,254)] md:via-[rgb(58,145,243)] to-[rgb(58,145,243)]">
-                        {{ page.title }}
-                    </h1>
-                </div>
+                <h1 class="pt-24 text-7xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-[rgb(115,180,254)] md:via-[rgb(58,145,243)] to-[rgb(58,145,243)]">
+                    {{ page.title }}
+                </h1>
+
+                <h2 class="pt-8 text-5xl text-[rgb(220,220,220)]">
+                    {{ page.description }}
+                </h2>
+                <p class="text-xl text-[rgb(200,200,200)]">
+                    Published on {{ page.date }}
+                </p>
+
+                <p class="text-lg">
+                    {{ content }}
+                </p>
             </div>
         </div>
     </body>
