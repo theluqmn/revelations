@@ -11,4 +11,4 @@ A weekly newsletter that aims to provide a comprehensive and concise overview of
 New articles from time to time, depending on the time I have at disposal. New videos every week on weekends.
 
 >[!NOTE]
-> I test in production lol
+> I test in production lol so loads of things can gro wrong
