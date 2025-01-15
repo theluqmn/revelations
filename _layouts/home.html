@@ -3,13 +3,12 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ page.title }} - The Revelations</title>
+        <title>Home - The Revelations</title>
         <link rel="icon" href="{{ site.baseurl }}/assets/icon.png" type="image/x-icon" />
 
         <!-- Open Graph -->
-        <meta property="og:title" content="{{ page.title }}" />
+        <meta property="og:title" content="Home - The Revelations" />
         <meta property="og:description" content="{{ page.description }}" />
-        <meta property="og:url" content="{{ page.url | relative_url }}" />
         <meta property="og:image" content="{{ page.image }}" />
 
         <!-- Tailwind CSS -->
@@ -69,45 +68,26 @@
             <!-- content -->
             <div class="p-4 w-full">
                 <div class="w-9/12 mx-auto">
-                    <!-- latest article banner -->
-                    <div class="p-2 flex flex-col gap-2 outline outline-2 outline-[rgb(35,35,35)] rounded-md">
-                        <p class="text-xl text-[rgb(200,200,200)]">
-                            latest article
-                        </p>
-
-                        <div class="flex flex-row gap-4 items-center">
-                            <img src="../assets/icon.png" class="w-20 h-20 object-cover">
-                            <div class="flex flex-col gap-2">
-                                <p class="text-2xl text-white">
-                                    {{ page.latest-article-title }}
-                                </p>
-                                
-                                <button class="p-2 rounded-md bg-[rgb(4,140,224)] hover:bg-[rgb(1,100,164)] duration-300"
-                                href="{{ page.latest-article-link }}">
-                                    read now
-                                </button>
-                            </div>
-                        </div>
-                    </div>
+                    {% include latest-article.html %}
 
                     <!-- home content -->
                     <div class="flex flex-col gap-32">
                         <div class="flex flex-col gap-16">
                             <div class="flex flex-col gap-4">
                                 <h1 class="pt-48 text-5xl text-[rgb(4,140,224)] font-bold">
-                                    In Search of Enlightening Knowledge
+                                    In Search of Knowledge
                                 </h1>
     
                                 <p class="text-2xl text-white">
-                                    In an internet filled with cluttered mess, The Revelations is a safe haven for those keen on learning and applying new knowledge.
+                                    In an internet filled with cluttered mess, The Revelations is a safe haven for those keen on learning and applying new knowledge. New articles every <b>Wednesday</b>.
                                 </p>
                             </div>
     
                             <div class="grid grid-cols-2 gap-4">
                                 <div class="flex flex-col gap-4">
-                                    <h1 class="text-3xl text-white font-bold">
+                                    <h2 class="text-3xl text-white font-bold">
                                         A Catalyst
-                                    </h1>
+                                    </h2>
     
                                     <p class="text-[rgb(200,200,200)] text-base">
                                         The Revelations provides a comprehensive and concise overview of various topics, with a list of links and materials for those interested in learning more.
@@ -115,39 +95,23 @@
                                 </div>
     
                                 <div class="flex flex-col gap-4">
-                                    <h1 class="text-3xl text-white font-bold">
+                                    <h2 class="text-3xl text-white font-bold">
                                         Expert Insights
-                                    </h1>
+                                    </h2>
     
                                     <p class="text-[rgb(200,200,200)] text-base">
                                         Sharing with you the knowledge, insights, and perspectives of countless experts and thought leaders - some interviewed personally.
                                     </p>
                                 </div>
                             </div>
+
+                            <button class="p-2 text-black text-lg rounded-md bg-[rgb(4,140,224)] hover:bg-[rgb(1,100,164)] duration-300">
+                                view all articles
+                            </button>
                         </div>
 
                         <div class="flex flex-col gap-16">
-                            <div class="flex flex-col gap-4">
-                                <h1 class="pt-48 text-4xl text-[rgb(4,140,224)] font-bold">
-                                    Covered Topics
-                                </h1>
-    
-                                <p class="text-2xl text-white">
-                                    We cover various topics relevant to the modern world, for aspiring entrepreneurs, leaders, and those seeking a deeper understanding of the world around them.
-                                </p>
-                            </div>
 
-                            <div class="grid grid-cols-2 gap-4">
-                                <div class="flex flex-col gap-4">
-                                    <h1 class="text-3xl text-white font-bold">
-                                        Test
-                                    </h1>
-
-                                    <p class="text-[rgb(200,200,200)] text-base">
-                                        Test
-                                    </p>
-                                </div>
-                            </div>
                         </div>
                     </div>
                 </div>
