@@ -34,7 +34,7 @@
     <body class="bg-black">
         <div class="flex flex-row">
             <!-- nav -->
-            <div class="p-4 flex flex-col gap-12 bg-[rgb(15,15,15)] sticky top-0 h-screen w-3/12 min-w-[400px]">
+            <div class="p-4 flex flex-col gap-12 bg-[rgb(10,10,10)] sticky top-0 h-screen w-3/12 min-w-[400px]">
                 <div class="flex flex-row gap-4 items-center">
                     <img src="../assets/icon.png" class="w-12 h-12">
                     <h1 class="text-2xl text-[rgb(4,140,224)] font-bold">
@@ -46,7 +46,7 @@
                     A weekly newsletter that aims to provide a comprehensive and concise overview of various topics in the world of entrepreneurship, technology, finance, and beyond.
                 </p>
 
-                <div class="p-4 flex flex-col gap-8 rounded-md outline outline-2 outline-[rgb(35,35,35)]">
+                <div class="p-4 flex flex-col gap-6 rounded-md outline outline-2 outline-[rgb(35,35,35)]">
                     <a class="text-xl text-white hover:text-[rgb(4,140,224)] duration-300">
                         home
                     </a>
@@ -79,9 +79,11 @@
                             <img src="../assets/icon.png" class="w-20 h-20 object-cover">
                             <div class="flex flex-col gap-2">
                                 <p class="text-2xl text-white">
-                                    {{ page.latest-article-title}}
+                                    {{ page.latest-article-title }}
                                 </p>
-                                <button class="p-2 rounded-md bg-[rgb(4,140,224)] hover:bg-[rgb(1,100,164)] duration-300">
+                                
+                                <button class="p-2 rounded-md bg-[rgb(4,140,224)] hover:bg-[rgb(1,100,164)] duration-300"
+                                href="{{ page.latest-article-link }}">
                                     read now
                                 </button>
                             </div>
@@ -89,15 +91,37 @@
                     </div>
 
                     <!-- home content -->
-                    <div class="flex flex-col gap-16">
+                    <div class="flex flex-col gap-32">
                         <div class="flex flex-col gap-4">
                             <h1 class="pt-48 text-5xl text-[rgb(4,140,224)] font-bold">
-                                In Pursuit of Enlightening Knowledge
+                                In Search of Enlightening Knowledge
                             </h1>
 
-                            <p class="text-2xl text-white]">
+                            <p class="text-2xl text-white">
                                 In an internet filled with cluttered mess, The Revelations is a safe haven for those keen on learning and applying new knowledge.
                             </p>
+                        </div>
+
+                        <div class="grid grid-cols-2 gap-4">
+                            <div class="flex flex-col gap-4">
+                                <h1 class="text-3xl text-white font-bold">
+                                    A Catalyst
+                                </h1>
+
+                                <p class="text-[rgb(200,200,200)] text-base">
+                                    The Revelations provides a comprehensive and concise overview of various topics, with a list of links and materials for those interested in learning more.
+                                </p>
+                            </div>
+
+                            <div class="flex flex-col gap-4">
+                                <h1 class="text-3xl text-white font-bold">
+                                    Expert Insights
+                                </h1>
+
+                                <p class="text-[rgb(200,200,200)] text-base">
+                                    Sharing with you the knowledge, insights, and perspectives of countless experts and thought leaders.
+                                </p>
+                            </div>
                         </div>
                     </div>
                 </div>
