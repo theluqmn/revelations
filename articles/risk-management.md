@@ -10,7 +10,7 @@ author: Luqman
 
 ---
 
-![test image](https://theluqmn.github.io/revelations/assets/images/la.jpg)
+![test image](../assets/la.jpg)
 
 Life is full of **uncertainty**, that affects us in various ways. Some uncertainties do not mean much - like feeling undecided about what to eat for breakfast, while others are more impactful - such as achieving our objectives. These **uncertainties that matters, are called risks**.
 
