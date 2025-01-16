@@ -31,38 +31,7 @@
 
     <body class="bg-black">
         <div class="flex flex-col md:flex-row">
-            <!-- nav -->
-            <div class="p-4 flex flex-col gap-12 bg-[rgb(10,10,10)] md:sticky top-0 h-screen w-3/12 min-w-[400px]">
-                <div class="flex flex-row gap-4 items-center">
-                    <img src="{{ site.baseurl }}/assets/icon.png" class="w-12 h-12">
-                    <h1 class="text-2xl text-[rgb(4,140,224)] font-bold">
-                        the revelations
-                    </h1>
-                </div>
-
-                <p class="text-[rgb(200,200,200)]">
-                    A weekly newsletter that aims to provide a comprehensive and concise overview of various topics for the aspiring entrepreneur, leaders, and curious minds.
-                </p>
-
-                <div class="p-4 flex flex-col gap-6 rounded-md outline outline-2 outline-[rgb(35,35,35)]">
-                    <a class="text-xl text-white hover:text-[rgb(4,140,224)] duration-300" href="{{ site.baseurl }}/">
-                        home
-                    </a>
-                    <a class="text-xl text-white hover:text-[rgb(4,140,224)] duration-300">
-                        articles
-                    </a>
-                    <a class="text-xl text-white hover:text-[rgb(4,140,224)] duration-300" href="{{ site.baseurl }}/about">
-                        about
-                    </a>
-                    <a class="text-xl text-white hover:text-[rgb(4,140,224)] duration-300" href="https://github.com/theluqmn/revelations">
-                        github
-                    </a>
-
-                    <p class="pt-8 text-[rgb(200,200,200)]">
-                        developed and written by <a class="text-[rgb(4,140,224)]" href="https://theluqmn.github.io">Luqman</a>
-                    </p>
-                </div>
-            </div>
+            {% include nav.html %}
 
             <!-- content -->
             <div class="p-4 w-full">
