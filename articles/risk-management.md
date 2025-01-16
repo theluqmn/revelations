@@ -3,14 +3,11 @@ title: Risk Management
 description: How to manage the uncertainties of the future.
 layout: article
 date: 17th January 2024
-author: Luqman
 ---
 
 *A honorable mention to [Dr David Hillson](https://risk-doctor.com), who I interviewed to learn more about risk management. He has given me various insights and new knowledge from his 35+ years of experience as a risk management consultant. Dr David has also wrote at least 16 books on the topic, which I highly recommend for those interested in learning more about risk management.*
 
 ---
-
-![test image](../assets/la.jpg)
 
 Life is full of **uncertainty**, that affects us in various ways. Some uncertainties do not mean much - like feeling undecided about what to eat for breakfast, while others are more impactful - such as achieving our objectives. These **uncertainties that matters, are called risks**.
 
@@ -70,7 +67,7 @@ Since you got rid of the distractions, and now has the room to focus on studying
 
 Thank you for the time, I hope you learned something new from the article that you can apply to your life. Stay tuned for next week's article!
 
-## Further Reading, Additional Resources
+## Dive Deeper
 
 - [A short article by Dr David on personal risk management](https://risk-doctor.com/wp-content/uploads/2020/06/19-Personal-risk-management.pdf)
 - [The Risk Doctor YouTube channel](https://www.youtube.com/RiskDoctorVideo) - Dr David's YouTube channel with over 200 videos, including shorts, full-length presentations, interviews & webinars on the topic of risk management.
