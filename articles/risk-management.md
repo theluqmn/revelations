@@ -8,6 +8,8 @@ author: Luqman
 
 *A honorable mention to [Dr David Hillson](https://risk-doctor.com), who I interviewed to learn more about risk management. He has given me various insights and new knowledge from his 35+ years of experience as a risk management consultant. Dr David has also wrote at least 16 books on the topic, which I highly recommend for those interested in learning more about risk management.*
 
+---
+
 Life is full of **uncertainty**, that affects us in various ways. Some uncertainties do not mean much - like feeling undecided about what to eat for breakfast, while others are more impactful - such as achieving our objectives. These **uncertainties that matters, are called risks**.
 
 ## Risk Management in a Nutshell
