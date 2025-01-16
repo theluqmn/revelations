@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home - The Revelations</title>
+        <link rel="icon" href="{{ site.baseurl }}/assets/icon.png" type="image/x-icon" />
+
+        <!-- Open Graph -->
+        <meta property="og:title" content="Home - The Revelations" />
+        <meta property="og:description" content="A weekly newsletter that aims to provide a comprehensive and concise overview of various topics for the aspiring entrepreneur, leaders, and curious minds." />
+
+        <!-- Tailwind CSS -->
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {}
+                }
+            }
+        </script>
+
+        <!-- JetBrains Mono font -->
+        <link href="https://fonts.cdnfonts.com/css/jetbrains-mono" rel="stylesheet">
+        <style>
+            body {
+                font-family: 'JetBrains Mono', monospace;
+            }
+        </style>
+    </head>
+
+    <body class="bg-black">
+        <div class="flex flex-col md:flex-row">
+            <!-- nav -->
+            <div class="p-4 flex flex-col gap-12 bg-[rgb(10,10,10)] md:sticky top-0 h-screen w-3/12 min-w-[400px]">
+                <div class="flex flex-row gap-4 items-center">
+                    <img src="{{ site.baseurl }}/assets/icon.png" class="w-12 h-12">
+                    <h1 class="text-2xl text-[rgb(4,140,224)] font-bold">
+                        the revelations
+                    </h1>
+                </div>
+
+                <p class="text-[rgb(200,200,200)]">
+                    A weekly newsletter that aims to provide a comprehensive and concise overview of various topics for the aspiring entrepreneur, leaders, and curious minds.
+                </p>
+
+                <div class="p-4 flex flex-col gap-6 rounded-md outline outline-2 outline-[rgb(35,35,35)]">
+                    <a class="text-xl text-white hover:text-[rgb(4,140,224)] duration-300">
+                        home
+                    </a>
+                    <a class="text-xl text-white hover:text-[rgb(4,140,224)] duration-300">
+                        articles
+                    </a>
+                    <a class="text-xl text-white hover:text-[rgb(4,140,224)] duration-300">
+                        about
+                    </a>
+                    <a class="text-xl text-white hover:text-[rgb(4,140,224)] duration-300">
+                        github
+                    </a>
+
+                    <p class="pt-8 text-[rgb(200,200,200)]">
+                        developed and written by Luqman
+                    </p>
+                </div>
+            </div>
+
+            <!-- content -->
+            <div class="p-4 w-full">
+                <div class="w-full md:w-9/12 md:mx-auto">
+                    {% include latest-article.html %}
+
+                    <!-- home content -->
+                    <div class="flex flex-col gap-32">
+                        <div class="flex flex-col gap-4">
+                            <h1 class="pt-48 text-4xl md:text-5xl text-[rgb(4,140,224)] font-bold">
+                                {{ page.title }}
+                            </h1>
+    
+                            <p class="text-xl md:text-2xl text-white">
+                                {{ page.description }}
+                            </p>
+    
+                            <p class="text-[rgb(200,200,200)]">
+                                Published on {{ page.date }}
+                            </p>
+                        </div>
+
+                        <div class="text-base text-white">
+                            {{ content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>    
+</html>

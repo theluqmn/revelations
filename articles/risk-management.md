@@ -1,7 +1,7 @@
 ---
 title: Risk Management
 description: How to manage the uncertainties of the future.
-layout: post
+layout: article
 date: published 6/1/2024
 author: Luqman
 ---
