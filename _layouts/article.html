@@ -15,10 +15,25 @@
         <script>
             tailwind.config = {
                 theme: {
-                    extend: {}
-                }
+                    extend: {
+                    typography: {
+                        DEFAULT: {
+                        css: {
+                            color: '#333',
+                            h1: { color: '#1e1e1e' },
+                            a: {
+                                color: '#1d4ed8',
+                                '&:hover': { color: '#0d3a97' },
+                            },
+                        },
+                        },
+                    },
+                    },
+                },
+                plugins: [require('@tailwindcss/typography')],
             }
         </script>
+        <link rel="stylesheet" href="https://unpkg.com/@tailwindcss/typography@0.4.1/dist/typography.min.css">
 
         <!-- JetBrains Mono font -->
         <link href="https://fonts.cdnfonts.com/css/jetbrains-mono" rel="stylesheet">
@@ -85,7 +100,7 @@
                             </p>
                         </div>
 
-                        <div class="text-base text-white">
+                        <div class="space-y-4">
                             {{ content }}
                         </div>
                     </div>
