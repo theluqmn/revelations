@@ -30,9 +30,9 @@
     </head>
 
     <body class="bg-black">
-        <div class="flex flex-row">
+        <div class="flex flex-col md:flex-row">
             <!-- nav -->
-            <div class="p-4 flex flex-col gap-12 bg-[rgb(10,10,10)] sticky top-0 h-screen w-3/12 min-w-[400px]">
+            <div class="p-4 flex flex-col gap-12 bg-[rgb(10,10,10)] md:sticky top-0 h-screen w-3/12 min-w-[400px]">
                 <div class="flex flex-row gap-4 items-center">
                     <img src="{{ site.baseurl }}/assets/icon.png" class="w-12 h-12">
                     <h1 class="text-2xl text-[rgb(4,140,224)] font-bold">
@@ -66,107 +66,107 @@
 
             <!-- content -->
             <div class="p-4 w-full">
-                <div class="w-9/12 mx-auto">
+                <div class="w-full md:w-9/12 md:mx-auto">
                     {% include latest-article.html %}
 
                     <!-- home content -->
                     <div class="flex flex-col gap-32">
                         <div class="flex flex-col gap-16">
                             <div class="flex flex-col gap-4">
-                                <h1 class="pt-48 text-5xl text-[rgb(4,140,224)] font-bold">
+                                <h1 class="pt-48 text-4xl md:text-5xl text-[rgb(4,140,224)] font-bold">
                                     In Search of Knowledge
                                 </h1>
     
-                                <p class="text-2xl text-white">
+                                <p class="text-xl md:text-2xl text-white">
                                     In an internet filled with cluttered mess, The Revelations is a safe haven for those keen on learning and applying new knowledge. New articles every <b>Friday</b>.
                                 </p>
                             </div>
     
-                            <div class="grid grid-cols-2 gap-8">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 <div class="flex flex-col gap-4 hover:scale-105 duration-500">
-                                    <h2 class="text-3xl text-white font-bold">
+                                    <h2 class="text-2xl md:text-3xl text-white font-bold">
                                         A Catalyst
                                     </h2>
     
-                                    <p class="text-[rgb(200,200,200)] text-base">
+                                    <p class="text-[rgb(200,200,200)] text-sm md:text-base">
                                         The Revelations provides a comprehensive and concise overview of various topics, with a list of links and materials for those interested in learning more.
                                     </p>
                                 </div>
     
                                 <div class="flex flex-col gap-4 hover:scale-105 duration-500">
-                                    <h2 class="text-3xl text-white font-bold">
+                                    <h2 class="text-2xl md:text-3xl text-white font-bold">
                                         Expert Insights
                                     </h2>
     
-                                    <p class="text-[rgb(200,200,200)] text-base">
+                                    <p class="text-[rgb(200,200,200)] text-sm md:text-base">
                                         Sharing with you the knowledge, insights, and perspectives of countless experts and thought leaders - some interviewed personally.
                                     </p>
                                 </div>
                             </div>
 
-                            <button class="p-2 text-black text-lg rounded-md bg-[rgb(4,140,224)] hover:bg-[rgb(1,100,164)] duration-300">
+                            <button class="p-2 text-black text-base md:text-lg rounded-md bg-[rgb(4,140,224)] hover:bg-[rgb(1,100,164)] duration-300">
                                 view all articles
                             </button>
                         </div>
 
                         <div class="flex flex-col gap-16">
                             <div class="flex flex-col gap-4">
-                                <h1 class="pt-48 text-4xl text-[rgb(4,140,224)] font-bold">
+                                <h1 class="pt-24 md:pt-48 text-3xl md:text-4xl text-[rgb(4,140,224)] font-bold">
                                     Increasing Readers' Exposure
                                 </h1>
 
-                                <p class="text-2xl text-white">
+                                <p class="text-xl md:text-2xl text-white">
                                     Exposing readers to a wide range of topics and perspectives that launches you ahead of the curve.
                                 </p>
                             </div>
 
-                            <div class="grid grid-cols-2 gap-8">
+                            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
                                 <div class="flex flex-col gap-4 hover:scale-105 duration-500">
-                                    <h2 class="text-3xl text-white font-bold">
+                                    <h2 class="text-2xl md:text-3xl text-white font-bold">
                                         Skills
                                     </h2>
 
-                                    <p class="text-[rgb(200,200,200)] text-base">
+                                    <p class="text-sm md:text-base text-[rgb(200,200,200)]">
                                         Explore and develop an array of skills that can be applied into countless aspects of life - personally and professionally.
                                     </p>
                                 </div>
 
                                 <div class="flex flex-col gap-4 hover:scale-105 duration-500">
-                                    <h2 class="text-3xl text-white font-bold">
+                                    <h2 class="text-2xl md:text-3xl text-white font-bold">
                                         Strategies
                                     </h2>
 
-                                    <p class="text-[rgb(200,200,200)] text-base">
+                                    <p class="text-sm md:text-base text-[rgb(200,200,200)">
                                         Taking note of the strategies and tactics that have brought success to countless individuals and organisations.
                                     </p>
                                 </div>
 
                                 <div class="flex flex-col gap-4 hover:scale-105 duration-500">
-                                    <h2 class="text-3xl text-white font-bold">
+                                    <h2 class="text-2xl md:text-3xl text-white font-bold">
                                         Role Models
                                     </h2>
 
-                                    <p class="text-[rgb(200,200,200)] text-base">
+                                    <p class="text-sm md:text-base text-[rgb(200,200,200)">
                                         Dive deep into the stories and lives of exceptional individuals who have made a significant impact on the world.
                                     </p>
                                 </div>
 
                                 <div class="flex flex-col gap-4 hover:scale-105 duration-500">
-                                    <h2 class="text-3xl text-white font-bold">
+                                    <h2 class="text-2xl md:text-3xl text-white font-bold">
                                         Finance
                                     </h2>
 
-                                    <p class="text-[rgb(200,200,200)] text-base">
+                                    <p class="text-sm md:text-base text-[rgb(200,200,200)">
                                         Gain a deeper understanding of the financial world which empowers the world we live in.
                                     </p>
                                 </div>
 
                                 <div class="flex flex-col gap-4 hover:scale-105 duration-500">
-                                    <h2 class="text-3xl text-white font-bold">
+                                    <h2 class="text-2xl md:text-3xl text-white font-bold">
                                         Technology
                                     </h2>
 
-                                    <p class="text-[rgb(200,200,200)] text-base">
+                                    <p class="text-sm md:text-base text-[rgb(200,200,200)">
                                         Discover various technologies that have enabled the world to progress and evolve - including some sneak peeks into the future.
                                     </p>
                                 </div>
@@ -175,15 +175,15 @@
 
                         <div class="pb-48 flex flex-col gap-16">
                             <div class="flex flex-col gap-4">
-                                <h1 class="pt-48 text-4xl text-[rgb(4,140,224)] font-bold">
+                                <h1 class="pt-24 md:pt-48 text-3xl md:text-4xl text-[rgb(4,140,224)] font-bold">
                                     The Starting Point
                                 </h1>
 
-                                <p class="text-2xl text-white">
+                                <p class="text-xl md:text-2xl text-white">
                                     A stepping stone towards a more informed and knowledgeable individual.
                                 </p>
 
-                                <p class="text-[rgb(200,200,200)] text-base">
+                                <p class="text-sm md:text-base text-[rgb(200,200,200)">
                                     In case you are interested in diving deeper on the topic, each article provides a list of specially curated resources that were used to create the article, and a few extra resources that will guide you further.
                                 </p>
                             </div>
