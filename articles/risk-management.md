@@ -10,6 +10,8 @@ author: Luqman
 
 ---
 
+![test image](https://theluqmn.github.io/assets/images/la.jpg)
+
 Life is full of **uncertainty**, that affects us in various ways. Some uncertainties do not mean much - like feeling undecided about what to eat for breakfast, while others are more impactful - such as achieving our objectives. These **uncertainties that matters, are called risks**.
 
 ## Risk Management in a Nutshell
