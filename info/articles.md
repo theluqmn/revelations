@@ -11,6 +11,4 @@ permalink: /articles/
 
 Articles related to skills applicable at both individual and organisational levels.
 
-### [Risk Management](../articles/risk-management.md)
-
-How to manage the uncertainties of the future.
+[**Risk Management**](../articles/risk-management.md): How to manage the uncertainties of the future.
