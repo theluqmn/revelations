@@ -1,5 +1,6 @@
 ---
 title: About
+description: About The Revelations
 layout: info
 permalink: /about/
 ---

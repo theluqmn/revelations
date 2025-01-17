@@ -1,7 +1,7 @@
 ---
 title: Articles
 description: Explore the list of articles available - covering various topics and fields.
-layout: article
+layout: info
 permalink: /articles/
 ---
 
