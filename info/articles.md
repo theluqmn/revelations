@@ -1,10 +1,9 @@
 ---
 title: Articles
-layout: info
+description: Explore the list of articles available - covering various topics and fields.
+layout: article
 permalink: /articles/
 ---
-
-Explore the list of articles available - covering various topics and fields.
 
 ## Skills
 
