@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>{{ page.title }} - The Revelations</title>
+        <title>Home - The Revelations</title>
         <link rel="icon" href="{{ site.baseurl }}/assets/icon.png" type="image/x-icon" />
 
         <!-- Open Graph -->
@@ -22,44 +22,47 @@
 
         <!-- JetBrains Mono font -->
         <link href="https://fonts.cdnfonts.com/css/jetbrains-mono" rel="stylesheet">
+
         <style>
-            body {
-                font-family: 'JetBrains Mono', monospace;
+            .bg-paper {
+                background-image: url('../assets/images/paper.png');
+                background-repeat: repeat;
+                background-size:auto;
+            }
+            .bg-concrete {
+                background-image: url('../assets/images/background.png');
+                background-repeat: repeat;
+                background-size: auto;
             }
         </style>
     </head>
 
-    <body class="bg-black">
-        <div class="flex flex-col md:flex-row">
+    <body class="p-2 md:p-4 bg-concrete bg-repeat font-mono">
+        <main class="p-4 md:p-8 w-full h-full md:w-8/12 flex flex-col gap-16 bg-paper mx-auto bg-white">
             {% include nav.html %}
 
-            <!-- content -->
-            <div class="p-4 w-full">
-                <div class="w-full md:w-9/12 md:mx-auto">
-                    <div class="flex flex-col gap-32 pb-32">
-                        <div class="flex flex-col gap-4">
-                            <h1 class="pt-48 text-4xl md:text-5xl text-[rgb(4,140,224)] font-bold">
-                                {{ page.title }}
-                            </h1>
-    
-                            <p class="text-xl md:text-2xl text-white">
-                                {{ page.description }}
-                            </p>
-                        </div>
+            <div class="flex flex-col gap-4">
+                <h1 class="text-2xl md:text-4xl font-semibold text-[rgb(50,50,50)]">
+                    {{ page.title }}
+                </h1>
 
-                        <div class="
-                        space-y-6
-                        text-base text-[rgb(220,220,220)]
-                        [&_h2]:text-3xl [&_h2]:pt-24 [&_h2]:font-semibold [&_h2]:text-white
-                        [&_h3]:text-2xl [&_h3]:pt-16 [&_h3]:font-semibold [&_h3]:text-white
-                        [&_a]:text-[rgb(52,152,219)]
-                        [&_img]:w-full [&_img]:rounded-md
-                        ">
-                            {{ content }}
-                        </div>
-                    </div>
+                <div class="flex flex-col gap-4 md:flex-row md:justify-between items-start">
+                    <p class="w-8/12 text-sm text-[rgb(50,50,50)]">
+                        {{ page.description }}
+                    </p>
                 </div>
             </div>
-        </div>
-    </body>    
+
+            <div class="
+            space-y-6
+            text-sm text-[rgb(50,50,50)]
+            [&_h2]:text-2xl [&_h2]:pt-24 [&_h2]:font-semibold [&_h2]:text-[rgb(50,50,50)]
+            [&_h3]:text-xl [&_h3]:pt-16 [&_h3]:font-semibold [&_h3]:text-[rgb(50,50,50)]
+            [&_a]:text-[rgb(52,152,219)]
+            [&_img]:w-full [&_img]:rounded-md
+            ">
+                {{ content }}
+            </div>
+        </main>
+    </body>
 </html>
