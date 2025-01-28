@@ -5,20 +5,24 @@ layout: info
 permalink: /about/
 ---
 
-All thanks to god, I have been blessed with the opportunity to learn knowledge and skills from countless topics, spanning various fields - even at a young age. One day, I was discussing with a teacher on what and where should I specialise (I am a generalist), and he mentioned this rather interesting perspective - **"Success is when you apply what you have learned"**. He then mentions that god blesses those with knowledge, not those who are successful. With knowledge, you understand, and you will be able to act accordingly. That moment made me realise that I should take action and share my knowledge with others.
+God gave me the opportunity to develop interests and gather various knowledge at a young age. My parents emphassized the importance of exposure, and I was fortunate enough to have a great environment to learn and grow. Both of them studied computer science, and dad is a tech entrepreneur - these factors helps in nurturing an interest in technology, startups, and business. I further developed my interests by working on projects, reading several books, and watching videos on YouTube related to the topics.
 
-Hence, I started this newsletter on January 2025 and host it on GitHub Pages - "theluqmn.github.io/revelations". My goal, is to share the knowledge I have gathered throughout my life, share insights, strategies that I have learnt, and share my inspiration with the others. For free.
+While it is true that information and knowledge are abundant and highly accessible, I have found out (the arduous way) that there are too many information out there to the point where it becomes overwhelming. A lot of us has ideas, but lacked the starting point. Most of the solutions out there are either paid, or cluttered with irrelevant ads and content (they had to make money somehow).
+
+I started this newsletter on late January 2025 - the website design changed three times hahahaa, and hosted it on Github Pages ("theluqmn.github.io/revelations"). The agenda behind the creation of this newsletter is to share the knowledge, insights, and strategies that I have learnt throughout my life for othes to take benefit from - for free, out of good will. This project is also open source.
+
+The Revelations is mainly targeted towards aspiring leaders, entrepreneurs, and curious individuals, but everyone is welcomed to have a look.
 
 ## The Vision
 
 ### Exposure
 
-Another vision of this newsletter is to widen the readers' exposure on topics that in my opinion, are essential for the aspiring entrepreneurs, leaders, and curious individuals. The topics discussed are carefully curated, and covers finance, technology, strategy, inspiration, and more.
+The core vision of this newsletter is to expose the readers to countless topics that in my opinion, will aid in their quest to elevate their personal and professional lives. This includes an exceptional comprehension of STEM, finance, strategies, and more. With a larger exposure, readers will develop a better understanding of the world, and be able to make better decisions.
 
 ### Safe Haven
 
-The Revelations is designed as a safe haven from the clutter of the internet. Free from ads, AI-generated content (unless mentioned otherwise), cookies, and is 100% open source.
+The Revelations is designed as a safe haven from the clutter of the internet. Free from ads, AI-generated content (unless mentioned otherwise, I do use AI to aid with autocomplete but only the ones I approve are added), cookies, and is 100% open source. It just works.
 
 ### Catalyst
 
-Mosts people among us is struggling to grasp certain topics not due to their lack of intelligence, but rather due to the absence of a clear starting point. The articles on this newsletter are designed to solve that - using comprehensive and concise content as an overview, and a **Dive Deeper** section at the end, which includes countless resources that aims to guide you through a deeper understanding of the topic.
+Mosts people among us is struggling to grasp certain topics not due to their lack of intelligence, but rather due to the absence of a clear starting point. The articles on this newsletter are designed to solve this issue - using comprehensive and concise content as an overview, and a **Dive Deeper** section at the end, which includes countless resources that aims to guide you through a deeper understanding of the topic, in case readers are interested.
