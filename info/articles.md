@@ -1,14 +1,16 @@
 ---
 title: Articles
-description: Explore the list of articles available - covering various topics and fields.
+description: An index of all the articles.
 layout: info
 permalink: /articles/
 ---
 
-## Skills
+New articles every week on Sundays (UTC+8 Kuala Lumpur, unless notified otherwise).
+
+## Latest Article
+
+### [**Risk Management**](../articles/risk-management.md)
+
+Managing the uncertainties of the future.
 
 ---
-
-Articles related to skills applicable at both individual and organisational levels.
-
-[**Risk Management**](../articles/risk-management.md): How to manage the uncertainties of the future.
