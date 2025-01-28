@@ -1,6 +1,6 @@
 ---
 title: Risk Management
-description: How to manage the uncertainties of the future.
+description: Managing the uncertainties of the future.
 layout: article
 date: 17th January 2024
 ---

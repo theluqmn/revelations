@@ -1,6 +1,6 @@
 ---
 title: About
-description: About The Revelations
+description: About The Revelations newsletter
 layout: info
 permalink: /about/
 ---
