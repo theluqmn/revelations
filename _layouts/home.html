@@ -39,56 +39,9 @@
 
     <body class="p-2 md:p-4 bg-concrete bg-repeat font-mono">
         <main class="p-4 md:p-8 w-full h-full md:w-8/12 flex flex-col gap-16 bg-paper mx-auto bg-white">
-            <div class="flex flex-col gap-4">
-                <h1 class="text-2xl md:text-4xl text-black">
-                    the revelations
-                </h1>
+            {{% include nav.html %}}
 
-                <div class="flex flex-row justify-between">
-                    <p class="md:w-1/3 text-sm text-[rgb(50,50,50)]">
-                        a weekly newsletter that aims to provide a comprehensive and concise overview of various topics for the aspiring entrepreneur, leaders, and curious minds.
-                    </p>
-
-                    <div class="hidden lg:flex flex-row gap-4 justify-between items-center">
-                        <div class="flex flex-col text-right">
-                            <p class="text-sm text-[rgb(50,50,50)]">
-                                designed, developed, and written by
-                            </p>
-                            
-                            <a href="https://theluqmn.github.io" target="_blank" class="text-2xl text-black hover:text-[rgb(100,100,100)] duration-300">
-                                Luqman (@theluqmn)
-                            </a>
-                        </div>
-                    
-                        <img src="../assets/qr.png" alt="logo" class="w-16">
-                    </div>
-                    
-                </div>
-
-                <div class="flex flex-col">
-                    <div class="flex flex-row gap-8 items-center">
-                        <a href="{{ site.baseurl }}/" target="_blank" class="text-base text-black hover:text-[rgb(100,100,100)] duration-300">
-                            home
-                        </a>
-
-                        <a href="{{ site.baseurl }}/articles" target="_blank" class="text-base text-black hover:text-[rgb(100,100,100)] duration-300">
-                            articles
-                        </a>
-
-                        <a href="{{ site.baseurl }}/about" target="_blank" class="text-base text-black hover:text-[rgb(100,100,100)] duration-300">
-                            about
-                        </a>
-
-                        <a href="https://github.com/theluqmn/revelations" target="_blank" class="text-base text-black hover:text-[rgb(100,100,100)] duration-300">
-                            github
-                        </a>
-                    </div>
-                    
-                    <div class="border-t border-[rgb(50,50,50)] my-4"></div>
-                </div>
-            </div>
-
-            <div class="flex flex-col gap-4">
+            <div class="pb-32 flex flex-col gap-4">
                 <h1 class="text-2xl md:text-4xl font-semibold text-[rgb(50,50,50)]">
                     In Search of Knowledge
                 </h1>
@@ -98,7 +51,7 @@
                 </p>
 
                 <div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-48">
-                    <div class="flex flex-col gap-2">
+                    <div class="flex flex-col gap-2 hover:scale-105 duration-300">
                         <h2 class="text-xl md:text-2xl font-semibold text-[rgb(50,50,50)]">
                             A Catalyst
                         </h2>
@@ -108,7 +61,7 @@
                         </p>
                     </div>
 
-                    <div class="flex flex-col gap-2">
+                    <div class="flex flex-col gap-2 hover:scale-105 duration-300">
                         <h2 class="text-xl md:text-2xl font-semibold text-[rgb(50,50,50)]">
                             Expert Insights
                         </h2>
@@ -124,6 +77,78 @@
                         discover all articles
                     </div>
                 </a>
+            </div>
+
+            <div class="pb-32 flex flex-col gap-4">
+                <h1 class="text-2xl md:text-4xl font-semibold text-[rgb(50,50,50)]">
+                    Increasing Readers' Exposure
+                </h1>
+
+                <p class="w-8/12 text-sm text-[rgb(50,50,50)]">
+                    Exposing readers to a wide range of topics and perspectives that launches you ahead of the curve.
+                </p>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-4 md:gap-16">
+                    <div class="flex flex-col gap-2 hover:scale-105 duration-300">
+                        <h2 class="text-xl md:text-2xl font-semibold text-[rgb(50,50,50)]">
+                            Skills
+                        </h2>
+
+                        <p class="text-sm text-[rgb(50,50,50)]">
+                            Explore and develop an array of skills that can be applied into countless aspects of life - personally and professionally.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col gap-2 hover:scale-105 duration-300">
+                        <h2 class="text-xl md:text-2xl font-semibold text-[rgb(50,50,50)]">
+                            Strategies
+                        </h2>
+
+                        <p class="text-sm text-[rgb(50,50,50)]">
+                            Taking note of the strategies and tactics that have brought success to countless individuals and organisations.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col gap-2 hover:scale-105 duration-300">
+                        <h2 class="text-xl md:text-2xl font-semibold text-[rgb(50,50,50)]">
+                            Role Models
+                        </h2>
+
+                        <p class="text-sm text-[rgb(50,50,50)]">
+                            Dive deep into the stories and lives of exceptional individuals who have made a significant impact on the world.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col gap-2 hover:scale-105 duration-300">
+                        <h2 class="text-xl md:text-2xl font-semibold text-[rgb(50,50,50)]">
+                            Finance
+                        </h2>
+
+                        <p class="text-sm text-[rgb(50,50,50)]">
+                            Gain a deeper understanding of the financial world which empowers the world we live in.
+                        </p>
+                    </div>
+
+                    <div class="flex flex-col gap-2 hover:scale-105 duration-300">
+                        <h2 class="text-xl md:text-2xl font-semibold text-[rgb(50,50,50)]">
+                            Technology
+                        </h2>
+
+                        <p class="text-sm text-[rgb(50,50,50)]">
+                            Discover various technologies that have enabled the world to progress and evolve - including some sneak peeks into the future.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pb-32 flex flex-col gap-4">
+                <h1 class="text-2xl md:text-4xl font-semibold text-[rgb(50,50,50)]">
+                    The Starting Point
+                </h1>
+
+                <p class="w-8/12 text-sm text-[rgb(50,50,50)]">
+                    A stepping stone towards a more informed and knowledgeable individual.
+                </p>
             </div>
         </main>
     </body>
