@@ -13,7 +13,7 @@ I started this newsletter on late January 2025 - the website design changed thre
 
 The Revelations is mainly targeted towards aspiring leaders, entrepreneurs, and curious individuals, but everyone is welcomed to have a look.
 
-## The Vision
+## Vision
 
 ### Exposure
 
@@ -26,3 +26,7 @@ The Revelations is designed as a safe haven from the clutter of the internet. Fr
 ### Catalyst
 
 Mosts people among us is struggling to grasp certain topics not due to their lack of intelligence, but rather due to the absence of a clear starting point. The articles on this newsletter are designed to solve this issue - using comprehensive and concise content as an overview, and a **Dive Deeper** section at the end, which includes countless resources that aims to guide you through a deeper understanding of the topic, in case readers are interested.
+
+## Design
+
+As previously mentioned, the design of this newsletter changed three times before I was satiesfied. In the world of fast-paced business, this would not happen but thank god it is a personal project - so I dictate the rules. I am actually a technical person (an Airbus A350 cockpit or a Bloomberg Terminal excites me), however, I went with a minimalist "it just works yet looks good" design by simply referring to a random invoice I found on Google (yes the design is based on an invoice), and slapped a dark seamless concrete background texture on it. I received positive feedback from several people, though some cricized it for being lacking technicality.
