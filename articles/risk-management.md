@@ -2,7 +2,7 @@
 title: Risk Management
 description: Managing the uncertainties of the future.
 layout: article
-date: 17th January 2024
+date: 31st January 2024
 ---
 
 *A honorable mention to [Dr David Hillson](https://risk-doctor.com), who I interviewed to learn more about risk management. He has given me various insights and new knowledge from his 35+ years of experience as a risk management consultant. Dr David has also wrote at least 16 books on the topic, which I highly recommend for those interested in learning more about risk management.*
