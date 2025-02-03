@@ -1,5 +1,5 @@
-<header class="flex flex-col gap-4">
-    <div class="flex flex-row justify-between items-start">
+<header class="flex flex-row justify-between items-start">
+    <div class="flex flex-col gap-4">
         <div class="flex flex-col gap-2">
             <h1 class="text-2xl md:text-4xl text-black">
                 the revelations
@@ -10,22 +10,6 @@
             </p>
         </div>
 
-        <div class="hidden lg:flex flex-row gap-4 justify-between items-center">
-            <div class="flex flex-col text-right">
-                <p class="text-sm text-[rgb(50,50,50)]">
-                    designed, developed, and written by
-                </p>
-                
-                <a href="https://theluqmn.github.io" target="_blank" class="text-2xl text-black hover:text-[rgb(100,100,100)] duration-300">
-                    Luqman (@theluqmn)
-                </a>
-            </div>
-        
-            <img src="{{ site.baseurl }}/assets/qr.png" alt="logo" class="w-16">
-        </div>
-    </div>
-
-    <div class="flex flex-col">
         <div class="flex flex-row gap-8 items-center">
             <a href="{{ site.baseurl }}/" class="text-base text-black hover:text-[rgb(100,100,100)] duration-300">
                 home
@@ -43,7 +27,21 @@
                 github
             </a>
         </div>
-        
+
         <div class="border-t border-[rgb(50,50,50)] my-4"></div>
+    </div>
+
+    <div class="hidden lg:flex flex-row gap-4 justify-between items-center">
+        <div class="flex flex-col text-right">
+            <p class="text-sm text-[rgb(50,50,50)]">
+                designed, developed, and written by
+            </p>
+            
+            <a href="https://theluqmn.github.io" target="_blank" class="text-2xl text-black hover:text-[rgb(100,100,100)] duration-300">
+                Luqman (@theluqmn)
+            </a>
+        </div>
+    
+        <img src="{{ site.baseurl }}/assets/qr.png" alt="logo" class="w-16">
     </div>
 </header>
