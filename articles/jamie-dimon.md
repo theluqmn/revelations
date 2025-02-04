@@ -28,8 +28,20 @@ Primerica then fully acquired the Travelers Insurance Corporation and adopted th
 
 Dimon and Weill formed the financial services conglomerate Citigroup in 1998 through a merger of Travelers Group and Citicorp. With this merger, Dimon, Weill, and [John (chairman of Citicorp)](https://en.wikipedia.org/wiki/John_S._Reed) holds the highest positions of the firm. However, Dimon left the firm soon after the merger after Weill asked him to leave.
 
-In an recent [interview with Dimon by David Novak (at the time of writing)](https://youtu.be/Xh6l39k3ngE?si=v2y3acq7mPIUAv-s), Dimon mentioned that he was given the title President which he did not ask for, and Weill told John that Dimon is pushing him. Dimon was supposed to run the global investment bank, but it changed to a tri-heads structure. Dimon expressed his frustrations with the change, and highlighted that the tri-heads and co-heads structure for every division will destroy the company. Later, Weill told Dimon that he and John wants him to resign, to which Dimon agreed.
+In an recent [interview with Dimon by David Novak (at the time of writing)](https://youtu.be/Xh6l39k3ngE?si=v2y3acq7mPIUAv-s), Dimon mentioned that he was given the president title which he did not ask for, and Weill told John that Dimon is pushing him. Dimon was supposed to run the global investment bank, but it changed to a tri-heads structure. Dimon expressed his frustrations with the change, and highlighted that the tri-heads and co-heads structure for every division will destroy the company. Later, Weill told Dimon that he and John wants him to resign, to which Dimon agreed.
 
 ### A Brief Break
 
 After he left Citigroup, Dimon became somewhat clueless on what to do next, as quoted in the interview, ["I went from working 80 hours a week to zero, so I was like, what the hell am I gonna do"](https://youtu.be/Xh6l39k3ngE?si=Dx3T5W-VlyBbKzPH&t=2201). He made a list of the things he wanted to do, went to the bookstore and literally bought 30-40 books. He went to visit his brother in Denmark, drove cross country by himself, and even tried boxing. He also took his family on a long trip to Europe.
+
+### Bank One
+
+In 2000, Dimon accepted an offer to become the chairmand and CEO of Bank One. Bank One Corporation was formed in 1998 with the merger of Banc One of Columbus, Ohio, and First Chicago NBD - and was considered a failure, until Dimon too over and reformed the company. Eventually, Bank One merged with JPMorgan Chase in 2004.
+
+### JPMorgan Chase
+
+As Bank One merges with JPMorgan Chase, Dimon becomes the president and COO of the firm. He introduced cost-cutting strategies, and replaced key executives in the firm with Bank One executives - many of whom were with Dimon at Citigroup. On 31st December 2005, Dimon was named the CEO, and on 31st December 2006, he was named chairman and president.
+
+Under his leadership, JPMorgan Chase has became the leading US bank in domestic assets under management, market capitalization, and publicly traded stock value.
+
+## Strategies and Approaches
