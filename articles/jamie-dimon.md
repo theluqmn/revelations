@@ -44,4 +44,45 @@ As Bank One merges with JPMorgan Chase, Dimon becomes the president and COO of t
 
 Under his leadership, JPMorgan Chase has became the leading US bank in domestic assets under management, market capitalization, and publicly traded stock value.
 
+JPMorgan Chase played a crucial role in stopping the bleeding during the 2008 financial crisis, by acquiring Bear Stearns and the Washington Mutual. Those acquisitions made Chase the largest commercial bank in the US, and saved the US government in billions of bailouts. It also helped mitigate the damages from the recent collapse of Silicon Valley Bank and First Republic.
+
 ## Strategies and Approaches
+
+Dimon carries everywhere a sheet of paper on which he writes lists of things to do, things to check up on, and things to remember, which he systematically crosses off.
+
+Dimon also writes an annual letter to the shareholders of JPMorgan Chase.
+
+He is also known for the [Fortress Balance Sheet](https://www.cfo.com/news/a-fortress-balance-sheet/669932/) strategy, which is one of the strategies he used that made JPMorgan Chase survive the 2008 financial crisis. In a nutshell, the strategy is to take a cautious approach by never over-leveraging things to the point where banks could not withstand a major unforeseen shock.
+
+## His Personal Life
+
+In 1983, Dimon married Judith Kent - who he met in Harvard Business School. They have three daughters: Julia, Laura and Kara Leigh.
+
+He was diagnosed with throat cancer in 2014, and underwent radiation and chemotherapy for eight weeks, ending in September 2014. Dimon also underwent an "emergency heart surgery" in March 2020. He returned to work in a remote capacity in April 2020 due to the COVID-19 pandemic.
+
+He is also known as a family man, and a loving father and grandpa - according to a [Bloomberg interview by Emily Chang](https://youtu.be/9Kl-wO_j5GM?si=mEbRYI0d9DdEHfZi).
+
+## Outro
+
+Dimon is an intriguing figure, and a great leader from the world of finance. He has proven his exceptional leadership skills, and executive abilities, which are proven with the success of JPMorgan Chase, and his work in the financial industry prior to that. Dimon is a great example of a leader who is not afraid to take risks, and is willing to make tough decisions in order to achieve his goals.
+
+Thank you for your time, I hope that you learned something new from this article that you can apply to your life. Stay tuned for next week's article!
+
+## Dive Deeper
+
+YouTube videos:
+
+- — [Inside the Mind of Jamie Dimon, JP Morgan CEO: Lessons on Leadership and Success](https://youtu.be/Xh6l39k3ngE?si=NorLEpJxAtgbgslZ): David Novak interviews Jamie Dimon. This article uses the interview as a basis for the article. It is a 1.5hrs long YouTube video, highly recommended if you want to learn more about Dimon.
+- — [When JPMorgan CEO Jamie Dimon Speaks, the World Listens | The Circuit](https://youtu.be/9Kl-wO_j5GM?si=mEbRYI0d9DdEHfZi): A YouTube video of Emily Chang interviewing Jamie Dimon.
+
+Articles:
+
+- — [A Fortress Balance Sheet](https://www.cfo.com/news/a-fortress-balance-sheet/669932/): An article on the Fortress Balance Sheet strategy.
+- — [Chairman and CEO Letter to Shareholders (2023) - JPMorgan Chase](https://www.jpmorganchase.com/ir/annual-report/2023/ar-ceo-letters): A letter from Jamie Dimon to the shareholders of JPMorgan Chase for the year 2023 (latest availabel during the time of writing this article).
+
+Wikipedia links:
+
+- — [Jamie Dimon](https://en.wikipedia.org/wiki/Jamie_Dimon)
+- — [JPMorgan Chase](https://en.wikipedia.org/wiki/JPMorgan_Chase)
+- — [Bank One Corporation](https://en.wikipedia.org/wiki/Bank_One_Corporation)
+- — [Sanford I. Weill (Sandy Weill)](https://en.wikipedia.org/wiki/Sanford_I._Weill)
