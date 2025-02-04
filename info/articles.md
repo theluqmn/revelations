@@ -9,7 +9,7 @@ New articles every week on Fridays (UTC+8 Kuala Lumpur, unless notified otherwis
 
 ## Latest Article
 
-[**Jamie Dimon**](../articles/jamie-dimon: Taking notes from the Chairman and CEO of JPMorgan Chase.)
+[**Jamie Dimon**](../articles/jamie-dimon): Taking notes from the chairman and CEO of JPMorgan Chase.
 
 ## All Articles
 
