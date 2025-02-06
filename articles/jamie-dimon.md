@@ -73,7 +73,7 @@ Thank you for your time, I hope that you learned something new from this article
 YouTube videos:
 
 - — [Inside the Mind of Jamie Dimon, JP Morgan CEO: Lessons on Leadership and Success](https://youtu.be/Xh6l39k3ngE?si=NorLEpJxAtgbgslZ): David Novak interviews Jamie Dimon. This article uses the interview as a basis for the article. It is a 1.5hrs long YouTube video, highly recommended if you want to learn more about Dimon.
-- — [When JPMorgan CEO Jamie Dimon Speaks, the World Listens | The Circuit](https://youtu.be/9Kl-wO_j5GM?si=mEbRYI0d9DdEHfZi): A YouTube video of Emily Chang interviewing Jamie Dimon.
+- — [When JPMorgan CEO Jamie Dimon Speaks, the World Listens](https://youtu.be/9Kl-wO_j5GM?si=mEbRYI0d9DdEHfZi): A YouTube video of Emily Chang interviewing Jamie Dimon.
 
 Articles:
 
