@@ -1,7 +1,5 @@
 # Revelations
 
-**Designed, developed, and written by** [Luqman](https://theluqmn.github.io/)
-
 → [Website](https://theluqmn.github.io/revelations/)
 
 → [YouTube](https://www.youtube.com/@theluqmn)
